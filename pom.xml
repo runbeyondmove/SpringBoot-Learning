@@ -1,0 +1,122 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>springboot :: Examples</name>
+
+    <groupId>springboot</groupId>
+    <artifactId>springboot-learning-example</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <!-- 1.快速入门 -->
+        <!-- 基本项目构建（可作为工程脚手架），引入web模块，完成一个简单的RESTful API -->
+        <module>Chapter1</module>
+
+        <!-- 2.工程配置 -->
+        <!-- 配置文件详解：自定义属性、随机数、多环境配置等 -->
+        <module>Chapter2-1-1</module>
+
+        <!-- 3.Web开发 -->
+        <!-- 构建一个较为复杂的RESTful API以及单元测试 -->
+        <module>Chapter3-1-1</module>
+        <!-- 使用Thymeleaf模板引擎渲染web视图 -->
+        <module>Chapter3-1-2</module>
+        <!-- 使用Freemarker模板引擎渲染web视图 -->
+        <module>Chapter3-1-3</module>
+        <!-- 使用Velocity模板引擎渲染web视图 -->
+        <module>Chapter3-1-4</module>
+        <!-- 使用Swagger2构建RESTful API -->
+        <module>Chapter3-1-5</module>
+        <!-- 统一异常处理 -->
+        <module>Chapter3-1-6</module>
+
+        <!-- 4.数据访问 -->
+        <!-- 使用JdbcTemplate -->
+        <module>Chapter3-2-1</module>
+        <!-- 使用Spring-data-jpa简化数据访问层（推荐） -->
+        <module>Chapter3-2-2</module>
+        <!-- 多数据源配置（一）：JdbcTemplate -->
+        <module>Chapter3-2-3</module>
+        <!-- 多数据源配置（二）：Spring-data-jpa -->
+        <module>Chapter3-2-4</module>
+        <!-- 使用NoSQL数据库（一）：Redis -->
+        <module>Chapter3-2-5</module>
+        <!-- 使用NoSQL数据库（二）：MongoDB -->
+        <module>Chapter3-2-6</module>
+        <!-- 整合MyBatis -->
+        <module>Chapter3-2-7</module>
+        <!-- MyBatis注解配置详解 -->
+        <module>Chapter3-2-8</module>
+        <!-- 使用Flyway来管理数据库版本 -->
+        <module>Chapter3-2-9</module>
+
+        <!-- 5.事务管理 -->
+        <!-- 使用事务管理 -->
+        <module>Chapter3-3-1</module>
+        <!-- [分布式事务（未完成）] -->
+        <module>Chapter3-3-1</module>
+
+        <!-- 6.其他内容 -->
+        <!-- 使用@Scheduled创建定时任务 -->
+        <module>Chapter4-1-1</module>
+        <!-- 使用@Async实现异步调用 -->
+        <module>Chapter4-1-2</module>
+
+        <!-- 7.日志管理 -->
+        <!-- 默认日志的配置 -->
+        <module>Chapter4-1-1</module>
+        <!-- 使用log4j记录日志 -->
+        <module>Chapter4-2-2</module>
+        <!-- 对log4j进行多环境不同日志级别的控制 -->
+        <module>Chapter4-2-3</module>
+        <!-- 使用AOP统一处理Web请求日志 -->
+        <module>Chapter4-2-4</module>
+        <!-- 使用log4j记录日志到MongoDB -->
+        <module>Chapter4-2-5</module>
+        <!-- Spring Boot 1.5.x新特性：动态修改日志级别] -->
+        <module>Chapter4-2-6</module>
+
+        <!-- 8.安全管理 -->
+        <!-- 使用Spring Security -->
+        <module>Chapter4-3-1</module>
+        <!-- [使用Spring Session（未完成）] -->
+        <!--<module>Chapter4-3-2</module>-->
+
+        <!-- 9.缓存支持-->
+        <!-- 注解配置与EhCache使用 -->
+        <module>Chapter4-4-1</module>
+        <!-- 使用Redis做集中式缓存 -->
+        <module>Chapter4-4-2</module>
+
+        <!-- 9.邮件发送-->
+        <!-- 实现邮件发送：简单邮件、附件邮件、嵌入资源的邮件、模板邮件 -->
+        <module>Chapter4-5-1</module>
+
+        <!-- 10.消息服务-->
+        <!-- [JMS（未完成）] -->
+        <!--<module>Chapter5-1-1</module>-->
+        <!-- Spring Boot中使用RabbitMQ -->
+        <module>Chapter5-2-1</module>
+
+        <!-- 11.其他功能-->
+        <!-- 使用Spring StateMachine框架实现状态机 -->
+        <module>Chapter6-1-1</module>
+        <!--Spring Boot Actuator监控端点小结-->
+        <!--<module></module>-->
+        <!--在传统Spring应用中使用spring-boot-actuator模块提供监控端点-->
+        <!--<module></module>-->
+        <!--Spring Boot应用的后台运行配置-->
+        <!--<module></module>-->
+        <!--Spring Boot自定义Banner-->
+        <!--<module></module>-->
+
+        <!--12.Dubbo进行服务治理-->
+        <!--Spring Boot中使用Dubbo进行服务治理-->
+        <!--<module>Chapter9-2-1</module>-->
+        <!--Spring Boot与Dubbo中管理服务依赖-->
+        <!--<module>Chapter9-2-2</module>-->
+
+    </modules>
+
+</project>
